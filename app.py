@@ -1,4 +1,5 @@
 #! /usr/bin/python
-import FLDemo
+import FLDemo as fl
 
-print(FLDemo)
+if __name__ == "__main__":
+    print(fl.getName())
